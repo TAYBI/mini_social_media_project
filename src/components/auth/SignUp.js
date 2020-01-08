@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
-function SignIn() {
+function SignUp() {
   const initState = {
+    firstName: "",
+    lastName: "",
     email: "",
     password: ""
   };
@@ -23,7 +25,15 @@ function SignIn() {
   return (
     <div className="container white-text">
       <form onSubmit={handleSubmit}>
-        <h4>Sign In</h4>
+        <h4>Sign Up</h4>
+        <div className="input-feild">
+          <label htmlFor="firstName">First Name</label>
+          <input type="text" name="firstName" onChange={handleChange} />
+        </div>
+        <div className="input-feild">
+          <label htmlFor="lastName">Last Name</label>
+          <input type="text" name="lastName" onChange={handleChange} />
+        </div>
         <div className="input-feild">
           <label htmlFor="email">Email</label>
           <input type="email" name="email" onChange={handleChange} />
@@ -46,4 +56,4 @@ function SignIn() {
   );
 }
 
-export default SignIn;
+export default SignUp;
