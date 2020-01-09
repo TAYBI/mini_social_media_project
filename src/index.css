@@ -22,3 +22,8 @@ code {
   background: #212121;
   color: white;
 }
+
+input,
+textarea {
+  color: rgb(223, 223, 223);
+}

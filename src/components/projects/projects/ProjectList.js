@@ -2,8 +2,6 @@ import React from "react";
 import ProjectSummory from "./ProjectSummory";
 
 function ProjectList({ projects }) {
-  console.log(projects);
-
   return (
     <div className="project-list section">
       {projects &&
