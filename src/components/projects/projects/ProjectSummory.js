@@ -1,12 +1,12 @@
 import React from "react";
 
-function ProjectSummory() {
+function ProjectSummory({ project }) {
   return (
     <div>
       <div className="card">
         <div className="card-content">
-          <span className="card-title">Project Title</span>
-          <p>posted by nobody</p>
+          <span className="card-title">{project.title}</span>
+          <p>{project.content}</p>
           <span className="text-grey">7/1/2020</span>
         </div>
       </div>
