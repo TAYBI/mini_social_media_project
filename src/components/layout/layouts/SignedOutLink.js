@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function SingOutLink() {
+function SignedOutLink() {
   return (
     <ul className="right">
       <li>
@@ -13,4 +13,4 @@ function SingOutLink() {
     </ul>
   );
 }
-export default SingOutLink;
+export default SignedOutLink;

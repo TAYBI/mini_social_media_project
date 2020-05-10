@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function SingInLinks() {
+function SignedInLinks() {
   return (
     <ul className="right">
       <li>
@@ -11,7 +11,7 @@ function SingInLinks() {
         <NavLink to="/">Log Out</NavLink>
       </li>
       <li>
-        <NavLink to="/" className="btn btn-floating blue-grey ">
+        <NavLink to="/" className="btn btn-floating blue-grey">
           BT
         </NavLink>
       </li>
@@ -19,4 +19,4 @@ function SingInLinks() {
   );
 }
 
-export default SingInLinks;
+export default SignedInLinks;

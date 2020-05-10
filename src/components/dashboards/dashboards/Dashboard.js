@@ -1,10 +1,9 @@
 import React from "react";
-// import React, { Component } from "react";
 import Notification from "./Notification";
 import ProjectList from "../../projects/projects/ProjectList";
 import { connect } from "react-redux";
 
-const Dashboard = props => {
+const Dashboard = (props) => {
   const { Projects } = props;
 
   return (
@@ -23,31 +22,10 @@ const Dashboard = props => {
   );
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    Projects: state.project.projects
+    Projects: state.project.projects,
   };
 };
 
 export default connect(mapStateToProps)(Dashboard);
-
-// class Dashboard extends Component {
-//   render() {
-//     console.log(this.props);
-
-//     return (
-//       <div>
-//         <div className="container">
-//           <div className="row">
-//             <div className="col s12 m6">
-//               <ProjectList />
-//             </div>
-//             <div className="s12 m5 offset-m1">
-//               <Notification />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
