@@ -1,1 +1,1 @@
-# ..
+# Mini Socila Media project
