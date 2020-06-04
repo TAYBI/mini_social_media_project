@@ -1,12 +1,18 @@
 import React from "react";
-import { Jumbotron, Button } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import PostCard from "../common/PostCard";
 
 function Home() {
   return (
-    <Jumbotron>
-      <h1>Home</h1>
-      <Button>cool</Button>
-    </Jumbotron>
+    <>
+      <h1 style={{ textAlign: "center" }}>Home</h1>
+      <Row xs="1" md="2" lg="3">
+        <PostCard />
+        <PostCard />
+        <PostCard />
+        <PostCard />
+      </Row>
+    </>
   );
 }
 

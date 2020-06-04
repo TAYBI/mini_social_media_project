@@ -18,3 +18,8 @@ input,
 textarea {
   color: rgb(223, 223, 223);
 }
+
+form {
+  max-width: 20rem;
+  margin: 0 auto;
+}
