@@ -5,23 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #333;
-  color: white;
-  text-align: center;
+  background: #fff;
+  color: 333;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.notification {
-  padding: 1rem 3rem;
-}
-
-.card {
-  background: #212121;
-  color: white;
 }
 
 input,
