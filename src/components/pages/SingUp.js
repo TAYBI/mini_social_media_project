@@ -5,6 +5,7 @@ const SingUp = () => {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Sing Up</h1>
+      <hr />
 
       <Form>
         <Form.Group controlId="formBasicName">

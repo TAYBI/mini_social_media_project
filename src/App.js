@@ -13,8 +13,8 @@ import NavBar from "./components/common/NavBar";
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <Container>
-        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/profile" component={About} />
