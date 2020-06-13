@@ -18,7 +18,7 @@ const Login = () => {
         <Form.Group controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="keep me logged in" />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="secondary" type="submit">
           Submit
         </Button>
       </Form>

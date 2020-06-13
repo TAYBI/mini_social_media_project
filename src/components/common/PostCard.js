@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const PostCard = () => {
   return (
@@ -11,7 +12,9 @@ const PostCard = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Repudiandae, minima!
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Link to="/post">
+            <Button variant="outline-secondary">Go somewhere</Button>
+          </Link>
         </Card.Body>
       </Card>
     </Col>

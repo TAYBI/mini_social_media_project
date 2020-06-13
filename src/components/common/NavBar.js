@@ -18,7 +18,7 @@ const NavBar = () => {
               <Link to="/signup">sign up</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/newpost">+ new post</Link>
+              <Link to="/newpost">⊕ new post</Link>
             </Nav.Link>
           </Nav>
           <Nav inline>
