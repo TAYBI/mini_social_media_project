@@ -8,7 +8,8 @@ const mdParser = new MarkdownIt(/* Markdown-it options */);
 
 // Finish!
 function handleEditorChange({ html, text }) {
-  console.log("handleEditorChange", html, text);
+  console.log("handleEditorChange", html);
+  // console.log(document.querySelector(".section sec-html").innerHTML);
 }
 const Post = () => {
   return (
@@ -38,6 +39,76 @@ const Post = () => {
           publish
         </Button>
       </Form.Group>
+    </>
+  );
+};
+
+export const Html = () => {
+  return (
+    <>
+      <h1>kjfkjfsd</h1>
+
+      <p>
+        <s>sfsfsssssf</s>
+      </p>
+      <p>
+        <code>sdfsdf</code>
+      </p>
+      <pre>
+        <code>fsdfjh fsdj ksjdgfjhgsf</code>
+        \shfdjgsfg ahjgasfd
+      </pre>
+
+      <blockquote>
+        <p>asasfafasfasfasfasfasfaa</p>
+      </blockquote>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Head</th>
+            <th>Head</th>
+            <th>Head</th>
+            <th>Head</th>
+            <th>Head</th>
+            <th>Head</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+        </tbody>
+      </table>
     </>
   );
 };
